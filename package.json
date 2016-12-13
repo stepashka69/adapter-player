@@ -1,0 +1,25 @@
+{
+  "name": "adapter-player",
+  "version": "0.0.5",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "bower": "^1.8.0",
+    "grunt-bower-task": "^0.4.0",
+    "webpack": "^1.14.0"
+  },
+  "scripts": {
+    "build": "grunt && webpack",
+    "dev": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

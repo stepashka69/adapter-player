@@ -1,0 +1,28 @@
+{
+  "name": "PlayerAdapter",
+  "authors": [
+    "Andrey Stepanov <stepashka@gmail.com>"
+  ],
+  "description": "Demo of the adapter for various video players. Implemented to show how different types of file formats (MPEG-DASH, Smooth Streaming, MP4) can be played with a single player",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/stepashka69",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "dashjs": "^2.3.0",
+    "hasplayer": "http://orange-opensource.github.io/hasplayer.js/1.7.0/hasplayer.js",
+    "requirejs": "^2.3.2"
+  },
+  "exportsOverride": {
+    "dashjs": {
+      "js": "dist/dash.all.min.js"
+    }
+  }
+}
