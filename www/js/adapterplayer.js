@@ -82,7 +82,7 @@
 	
 	factory.registerAdapter(new _Dash2.default({
 	    'videoElement': videoElement,
-	    'src': 'vendor/dashjs/js/dash.all.debug.js',
+	    'src': 'vendor/dashjs/js/dash.all.min.js',
 	    'autoplay': false
 	}));
 	
@@ -589,6 +589,7 @@
 	            this.player.addEventListener(_Abstract2.default.EVENT_TIMEUPDATE, function (e) {
 	                _this.element.textContent = toHHMMSS(_this.player.getCurrentTime());
 	            });
+	
 	            return this.element;
 	        }
 	    }]);

@@ -1,7 +1,7 @@
 # Adapter JS Video Player
 
 ## Overview
-Demo project to illustrate idea of creating JS video player that can play various video formats (MPEG-DASH, Smooth Streaming, MP4 etc.) with a single interface. Created to support article .
+Demo project to illustrate idea of creating JS video player that can play various video formats (MPEG-DASH, Smooth Streaming, MP4 etc.) with a single interface. Created to support article [Making web browser play streaming video (such as MPEG-DASH, Smooth Streaming, HLS) with one player.](https://medium.com/@stepashka69/making-web-browser-play-streaming-video-mpeg-dash-smooth-streaming-hls-with-one-player-c5f4dd445b91#.nl6cz9yic).
 
 ## Documentation
 

@@ -13,6 +13,7 @@ export default class Time {
         this.player.addEventListener(AbstractPlayer.EVENT_TIMEUPDATE, (e) => {
             this.element.textContent = toHHMMSS(this.player.getCurrentTime());
         });
+
         return this.element;
     }
 }

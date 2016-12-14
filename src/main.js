@@ -15,7 +15,7 @@ factory.registerAdapter(new Native({
 
 factory.registerAdapter(new Dash({
     'videoElement': videoElement,
-    'src': 'vendor/dashjs/js/dash.all.debug.js',
+    'src': 'vendor/dashjs/js/dash.all.min.js',
     'autoplay': false
 }));
 
